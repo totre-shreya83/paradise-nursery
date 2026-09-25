@@ -1,16 +1,40 @@
-# React + Vite
+# Paradise Nursery
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Paradise Nursery is a dynamic e-commerce web application for an online plant shop. 
+Built with React and Redux, it allows users to browse a curated selection of houseplants, 
+view detailed product information, and manage a shopping cart with real-time updates.
 
-Currently, two official plugins are available:
+## Project Overview
+- **Project Name:** Paradise Nursery
+- **Type:** Single Page Application (SPA) — Online Plant Shop
+- **Tech Stack:** React, Redux Toolkit, React Router, CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
+- Landing page showcasing the Paradise Nursery brand
+- Product listing page with plants grouped into categories
+- Add to Cart functionality with dynamic cart icon updates
+- Full shopping cart page with quantity management and total cost calculation
+- About Us page with company details
+- Responsive navigation bar across all pages
 
-## React Compiler
+## Pages
+- **Landing Page** — Introduces Paradise Nursery with a "Get Started" button
+- **Product Listing Page** — Browse plants by category and add items to the cart
+- **Shopping Cart Page** — View, update, and remove items from the cart
+- **About Us Page** — Learn more about Paradise Nursery
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Getting Started
 
-## Expanding the Oxlint configuration
+### Prerequisites
+- Node.js and npm installed
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+### Installation
+\`\`\`bash
+git clone https://github.com/<your-username>/paradise-nursery.git
+cd paradise-nursery
+npm install
+npm run dev
+\`\`\`
+
+## License
+This project was created as part of a learning exercise.
