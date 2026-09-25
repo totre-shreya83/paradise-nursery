@@ -4,6 +4,9 @@ import './App.css';
 import ProductList from './components/ProductList/ProductList';
 import AboutUs from './components/AboutUs/AboutUs';
 
+import CartItem from './components/CartItem/CartItem';
+// ...
+
 function LandingPage() {
   const navigate = useNavigate();
 
@@ -36,6 +39,7 @@ function App() {
         <Route path="/" element={<LandingPage />} />
         <Route path="/products" element={<ProductList />} />
         <Route path="/about" element={<AboutUs />} />
+        <Route path="/cart" element={<CartItem />} />
       </Routes>
     </Router>
   );
